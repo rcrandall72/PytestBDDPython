@@ -4,19 +4,19 @@ from pytest import mark
 from log_functions import log_test, log_step
 
 
-@scenario("login_logout.feature", "Login and Logout")
+@scenario("../features/login_logout.feature", "Login and Logout")
 @mark.usefixtures("base_functions")
 def test_login_logout(driver):
     pass
 
 
-@scenario("login_logout.feature", "User cannot login with a locked account")
+@scenario("../features/login_logout.feature", "User cannot login with a locked account")
 @mark.usefixtures("base_functions")
 def test_cannot_login_with_locked_user(driver):
     pass
 
 
-@scenario("login_logout.feature", "User cannot login with invalid credentials")
+@scenario("../features/login_logout.feature", "User cannot login with invalid credentials")
 @mark.usefixtures("base_functions")
 def test_user_signing_credential_errors(driver):
     pass

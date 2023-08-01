@@ -3,25 +3,25 @@ from common_strings import *
 from pytest import mark
 
 
-@scenario("sort_products.feature", "Sort Products A to Z")
+@scenario("../features/sort_products.feature", "Sort Products A to Z")
 @mark.usefixtures("base_functions")
 def test_sort_products_a_to_z(driver):
     pass
 
 
-@scenario("sort_products.feature", "Sort Products Z to A")
+@scenario("../features/sort_products.feature", "Sort Products Z to A")
 @mark.usefixtures("base_functions")
 def test_sort_products_z_to_a(driver):
     pass
 
 
-@scenario("sort_products.feature", "Sort Products Low to High")
+@scenario("../features/sort_products.feature", "Sort Products Low to High")
 @mark.usefixtures("base_functions")
 def test_sort_products_low_to_high(driver):
     pass
 
 
-@scenario("sort_products.feature", "Sort Products High to Low")
+@scenario("../features/sort_products.feature", "Sort Products High to Low")
 @mark.usefixtures("base_functions")
 def test_sort_products_high_to_low(driver):
     pass

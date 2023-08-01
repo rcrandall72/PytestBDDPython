@@ -3,7 +3,7 @@ from common_strings import *
 from pytest import mark
 
 
-@scenario("social_media_links.feature", "Open Social Media Links")
+@scenario("../features/social_media_links.feature", "Open Social Media Links")
 def test_open_social_media_links(driver):
     pass
 

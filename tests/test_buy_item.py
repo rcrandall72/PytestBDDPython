@@ -3,7 +3,7 @@ from common_strings import *
 from pytest import mark
 
 
-@scenario("buy_item.feature", "Buy Item")
+@scenario("../features/buy_item.feature", "Buy Item")
 @mark.usefixtures("base_functions")
 def test_buy_item(driver):
     pass
